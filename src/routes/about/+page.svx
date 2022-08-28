@@ -1,13 +1,6 @@
-# About swyxkit!
+# About me!
 
-This is swyx's preferred starter for Svelte projects:
-
-- SvelteKit
-- Tailwind 3 + Tailwind Typography
-- Netlify
-- GitHub Issues as CMS
-
-Feel free to rip out these opinions as you see fit of course.
+<!---
 
 ## Live Demo
 
@@ -104,3 +97,5 @@ You can read:
 - store results in netlify build cache
 - separate hydration path for mobile nav
 - custom components in MDX, and rehype plugins
+
+--->
