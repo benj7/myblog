@@ -36,7 +36,7 @@
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
 			<h1 class="mb-3 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-				This is
+				Je suis
 
 				<span
 					class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
@@ -46,12 +46,11 @@
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify.</span
-				> Refreshed <a href="https://github.com/sveltejs/kit/discussions/5774">the great SvelteKit redesign of Summer 2022</a>
+				Actuaire et Data scientist. Suivez ici toutes mes réflexions à propos de <span class="font-semibold"
+					>la programmation R et Shiny, d'économie et d'investissement boursier</span
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href={REPO_URL}>View source here!</a>
+				<a href={REPO_URL}>Check out my work!</a>
 			</p>
 		</div>
 		<!-- <div
@@ -61,9 +60,9 @@
 
 	<section class="mb-16 w-full">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
-			Featured Posts
+			Articles les plus populaires
 		</h3>
-		<div class="flex flex-col gap-6 md:flex-row">
+		<!--<div class="flex flex-col gap-6 md:flex-row">
 			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
 			<FeatureCard
 				title="Moving to a GitHub CMS"
@@ -71,7 +70,7 @@
 				stringData="Jan 2022"
 			/>
 			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
-		</div>
+		</div> -->
 		<a
 			class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
 			href="/blog"
