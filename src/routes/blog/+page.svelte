@@ -71,9 +71,7 @@
 		Blog
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt reprehenderit alias rerum
-		dolor impedit. In total, I've written {items.length} articles on my blog. Use the search below to
-		filter by title.
+		Il y a {items.length} articles sur mon blog. Utilisez la fonction de recherche ci-dessous pour filtrer les articles par titre.
 	</p>
 	<div class="relative mb-4 w-full">
 		<input
@@ -115,7 +113,7 @@
 		</div>
 	</div>
 
-	{#if !search}
+	<!--{#if !search}
 		<h3 class="mt-8 mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			Most Popular
 		</h3>
@@ -131,7 +129,8 @@
 
 		<h3 class="mt-8 mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			All Posts
-		</h3>
+		</h3> 
+-->
 	{/if}
 
 	{#if list.length}
@@ -156,17 +155,17 @@
 					on:click={() => (isTruncated = false)}
 					class="inline-block rounded bg-blue-100 p-4 text-lg font-bold tracking-tight text-black hover:text-yellow-900 dark:bg-blue-900 dark:text-white hover:dark:text-yellow-200 md:text-2xl"
 				>
-					Load More Posts...
+					Chargez plus d'articles...
 				</button>
 			</div>
 		{/if}
 	{:else if search}
 		<div class="prose dark:prose-invert">
-			No posts found for
+			Aucun article trouvé
 			<code>{search}</code>.
 		</div>
-		<button class="p-2 bg-slate-500" on:click={() => (search = '')}>Clear your search</button>
+		<button class="p-2 bg-slate-500" on:click={() => (search = '')}>Effacez votre recherche</button>
 	{:else}
-		<div class="prose dark:prose-invert">No blogposts found!</div>
+		<div class="prose dark:prose-invert">Aucun article trouvé!</div>
 	{/if}
 </section>
