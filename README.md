@@ -1,6 +1,6 @@
-# SwyxKit
+<!-- # 
 
-<!-- A lightly opinionated starter for SvelteKit blogs:
+A lightly opinionated starter for SvelteKit blogs:
 
 - SvelteKit + Netlify adapter!
 - Tailwind 3 + Tailwind Typography (with [swyx fixes](https://youtu.be/-FzemNMcOGs))
