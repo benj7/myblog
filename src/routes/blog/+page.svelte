@@ -129,8 +129,8 @@
 
 		<h3 class="mt-8 mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			All Posts
-		</h3> -->
-	{/if}
+		</h3> 
+	{/if}-->
 
 	{#if list.length}
 		<ul class="">
