@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<title>{json.title}</title>
-	<meta name="description" content="swyxkit blog" />
+	<meta name="description" content="Mon blog" />
 
 	<link rel="canonical" href={canonical} />
 	<meta property="og:url" content={canonical} />
