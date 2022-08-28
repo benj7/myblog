@@ -48,14 +48,14 @@
 			>
 				GitHub
 			</a>
-			<a
+			<!--<a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
 				rel="noopener noreferrer"
 				href={MY_YOUTUBE}
 			>
 				YouTube
-			</a>
+			</a> -->
 		</div>
 	</div>
 </footer>
