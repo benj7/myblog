@@ -46,8 +46,8 @@
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				Actuaire et Data scientist. Suivez ici toutes mes réflexions à propos de<span class="font-semibold"
-					>la programmation R et Shiny, d'économie et d'investissement boursier</span
+				Actuaire et Data scientist. Suivez ici toutes mes réflexions à propos de <span class="font-semibold"
+					>la programmation R et Shiny, d'économie et d'investissement boursier. </span>
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href={REPO_URL}>Check out my work!</a>
