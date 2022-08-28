@@ -1,6 +1,6 @@
 # SwyxKit
 
-A lightly opinionated starter for SvelteKit blogs:
+<!-- A lightly opinionated starter for SvelteKit blogs:
 
 - SvelteKit + Netlify adapter!
 - Tailwind 3 + Tailwind Typography (with [swyx fixes](https://youtu.be/-FzemNMcOGs))
@@ -178,3 +178,5 @@ You can read:
 - store results in netlify build cache
 - separate hydration path for mobile nav (so that we could `hydrate=false` some pages)
 - custom components in MDX, and rehype plugins
+
+-->
